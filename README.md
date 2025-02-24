@@ -16,7 +16,8 @@
 
 #### Steps to Set Up Database
 1. **Create a `.env` file** in the root directory and add the following environment variables:
-   ```env
+
+   ```
   PORT=3000
   DB_USER='postgres'
   DB_PASSWORD='@Vuong10072003'
@@ -26,42 +27,42 @@
 
 ### 2. Running the Backend
 1. Navigate to the backend directory:
-   ```sh
+   ```
    cd server
    ```
-   
+
 2. Install dependencies:
-   ```sh
+   ```
    npm install
    ```
 3. Start the server:
-   ```sh
+   ```
    node index 
    npx nodemon index
    ```
 
 ### 3. Running the Frontend
 1. Navigate to the frontend directory:
-   ```sh
+   ```
    cd frontend
    ```
 2. Install dependencies:
-   ```sh
-   npm install
+   ```
+    npm install
    ```
 3. Start the React application:
-   ```sh
+   ```
    npm run dev
    ```
 
 ## Testing
 - Ensure your `.env` file is set up correctly.
 - Run backend tests:
-  ```sh
+  ```
   npm test
   ```
 - Run frontend tests:
-  ```sh
+  ```
   npm run test
   ```
 
@@ -73,4 +74,4 @@
 - Logging in
 - Creating, updating, and deleting tasks
 
-Good luck, and we look forward to your submission!
+
