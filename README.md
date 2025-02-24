@@ -16,13 +16,12 @@
 
 #### Steps to Set Up Database
 1. **Create a `.env` file** in the root directory and add the following environment variables:
-
-   ```
-  PORT=3000
-  DB_USER='postgres'
-  DB_PASSWORD='@Vuong10072003'
-  DB_NAME = 'lumaatasks'
-   ````
+```
+   PORT=3000
+    DB_USER='postgres'
+    DB_PASSWORD='@Vuong10072003'
+    DB_NAME = 'lumaatasks'
+````
 
 
 ### 2. Running the Backend
